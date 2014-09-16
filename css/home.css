@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Futura;
+    font-size: 20px;
+    color: #5d5d5d;
+    text-align: center;
+}
+
+.image-panel { 
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#header{position: fixed; z-index: 999;}
+#head{width: 100%;}
+#foot{width: 100%;}
+#backgroundtop{
+    background-image: url("../img/home/backgroundtop.jpg");
+    height: 100%;
+}
+
+#background1{
+    background-image: url("../img/home/background1.jpg");
+}
+
+#background2{
+    background-image: url("../img/home/background2.jpg");
+}
+
+#background3{
+    background-image: url("../img/home/background3.jpg");
+}
+
+#background4{
+    background-image: url("../img/home/background4.jpg");
+}
+
+.content-panel {
+    width: 100%;
+    padding: 45px 0;
+    position: relative;
+    z-index: 9;
+    /*
+    -webkit-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 1px 8px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 1px 8px 0px rgba(50, 50, 50, 0.75);*/
+}
+
+#backgroundtop img{ margin: 0 auto; display: block;}
+#tagline{ padding-top: 15%;}
+#healthbutton{ padding-top: 2%;}
+#arrow{ padding-top: 5%;}
+#transitiontop{ width: 100%; top: 93%; position: absolute;}
+
+#content1 img{margin: 0 auto; display: block;}
+#productsandrecipes{padding-top: 7%;}
+
+.button{
+    width: 310px; 
+    height: 59px; 
+    background-color: #ae5153; 
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -o-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+
+#arrow2{ padding-top: 4%;}
+
+.column1button{margin-bottom: 5%;}
+.content2{ padding-top: 10%;}
+.arrow3{ padding-top: 4%; display: block; margin: 0 auto;}
+.column{ display: inline-block; vertical-align: middle; text-align: left; padding: 0 3%;}
+.left{text-align: left;}
+.red{ color: #c03b4b; text-decoration: underline; font-weight: bold;}
+.quote{font-size: 16px;}
+.col{display: inline-block; padding: 0 1.5%; vertical-align: top;}
+#beyondmeatinthenews{display: block; margin: 0 auto; padding: 3% 0 7%;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
