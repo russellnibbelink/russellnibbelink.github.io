@@ -64,42 +64,19 @@ html, body {
 }
 
 #backgroundtop img{ margin: 0 auto; display: block;}
+
+#title{
+    margin: 0; !important
+    padding: 0; !important
+    font-size: 40px;
+    color: white;
+}
+
 #arrow{ width: 5%; bottom: 5%; position: absolute; z-index: 999; margin: 0 auto; align-content: center; text-align: center; left: 47.5%}
 #transitiontop{ width: 100%; bottom: 0%; position: absolute; left: 0%;}
 
 #content1 img{margin: 0 auto; display: block;}
-#productsandrecipes{padding-top: 7%;}
 
-.button{
-    width: 310px; 
-    height: 59px; 
-    background-color: #ae5153; 
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -o-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    color: white;
-    font-size: 25px;
-    font-weight: bolder;
-    padding-top: 10px;
-    display: inline-block;
-    text-align: center;
-    line-height: 50px;
-}
-
-#arrow2{ padding-top: 4%;}
-
-.column1button{margin-bottom: 5%;}
-.content2{ padding-top: 10%;}
-.arrow3{ padding-top: 4%; display: block; margin: 0 auto;}
-.column{ display: inline-block; vertical-align: middle; text-align: left; padding: 0 3%;}
-.left{text-align: left;}
-.red{ color: #c03b4b; text-decoration: underline; font-weight: bold;}
-.quote{font-size: 16px;}
-.col{display: inline-block; padding: 0 1.5%; vertical-align: top;}
-#beyondmeatinthenews{display: block; margin: 0 auto; padding: 3% 0 7%;}
-    
     
     
     
