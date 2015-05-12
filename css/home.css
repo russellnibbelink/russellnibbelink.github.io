@@ -22,10 +22,26 @@ html, body {
     background-size: cover;
 }
 
-#header{position: fixed; z-index: 999;}
+a{margin: 0; padding: 0; text-decoration: none;}
+
+.button{
+    color: white;
+    display: inline-block;
+    border: solid 3px white;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+}
+
+header{position: fixed; z-index: 999; margin: 0 auto; text-align: center;}
+
 #backgroundtop{
     background-image: url("../img/home/backgroundtop.jpg");
     height: 100%;
+}
+#title{
+padding-top: 40%;
+font-size: 60px;
 }
 
 #background1{
@@ -57,10 +73,6 @@ html, body {
     padding: 45px 0;
     position: relative;
     z-index: 9;}
-    /*
-    -webkit-box-shadow: 0px 1px 8px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    0px 1px 8px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         0px 1px 8px 0px rgba(50, 50, 50, 0.75);*/
 }
 
 #backgroundtop img{ margin: 0 auto; display: block;}
@@ -77,6 +89,7 @@ html, body {
 
 #content1 img{margin: 0 auto; display: block;}
 
+.nav{border-radius: }
     
     
     
