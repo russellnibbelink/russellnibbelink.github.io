@@ -82,7 +82,7 @@ HTMLActuator.prototype.addTile = function (tile) {
             inner.textContent = "You";
             break;
           case 128:
-            inner.textContent = "You're the best!";
+            inner.textContent = "Woo!";
             break;
           default:
             inner.textContent = tile.value;
@@ -152,7 +152,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Game over!";
+  var message = won ? "Happy Birthday Gigi!" : "Game over!";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
