@@ -62,7 +62,33 @@ HTMLActuator.prototype.addTile = function (tile) {
   this.applyClasses(wrapper, classes);
 
   inner.classList.add("tile-inner");
-  inner.textContent = tile.value;
+  switch (tile.value){
+          case 2:
+            inner.textContent = "Happy";
+            break;
+          case 4:
+            inner.textContent = "B-Day";
+            break;
+          case 8:
+            inner.textContent = "Gigi";
+            break;
+          case 16:
+            inner.textContent = "I";
+            break;
+          case 32:
+            inner.textContent = "Love";
+            break;
+          case 64:
+            inner.textContent = "You";
+            break;
+          case 128:
+            inner.textContent = "You're the best!";
+            break;
+          default:
+            inner.textContent = tile.value;
+            break;
+  }
+  //inner.textContent = tile.value;
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
