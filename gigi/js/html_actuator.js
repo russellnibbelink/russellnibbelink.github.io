@@ -84,6 +84,18 @@ HTMLActuator.prototype.addTile = function (tile) {
           case 128:
             inner.textContent = "Woo!";
             break;
+          case 256:
+            inner.textContent = "Keep";
+            break;
+          case 512:
+            inner.textContent = "Being";
+            break;
+          case 1024:
+            inner.textContent = "Awesome";
+            break;
+          case 2048:
+            inner.textContent = "Great";
+            break;
           default:
             inner.textContent = tile.value;
             break;
